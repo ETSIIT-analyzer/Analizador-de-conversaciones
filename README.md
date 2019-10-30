@@ -11,5 +11,5 @@ El lenguaje que vamos a ultilizar para la realización del microservicio será P
 Autores:
 
  [Juan Antonio Martín Quiros](https://github.com/marquirj)  
- [Jesús Sánchez de Lechuna Tejada](https://github.com/jojelupipa)   
+ [Jesús Sánchez de Lechina Tejada](https://github.com/jojelupipa)   
  [Pablo Luque Moreno](https://github.com/pabloluque14)   
