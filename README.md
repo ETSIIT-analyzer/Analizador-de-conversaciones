@@ -1,3 +1,4 @@
+[![Build_Status](https://travis-ci.org/ETSIIT-analyzer/Analizador-de-conversaciones.svg?branch=master)](https://travis-ci.org/ETSIIT-analyzer/Analizador-de-conversaciones)
 # Analizador de conversaciones para el curso de programación para QA
 
 El microservicio que vamos a realizar para el [curso de desarrollo para QA](https://jj.github.io/curso-tdd) 
