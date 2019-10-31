@@ -1,8 +1,8 @@
 PY=python
 PIP= pip
 test: tests/test.py
-	$(PY) tests/test.py
+	$(PY) analyzer/test.py
 install: requirements.txt
 	$(PIP) install -r requirements.txt
-run: src/main.py
+run: analyzer/main.py
 	$(PY) main.py

@@ -1,5 +1,14 @@
 # -*- coding: utf-8 -*-
-from Conversacion import Analyzer
+import sys
+import os
+
+# Obtain project root path
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# For finding modules to test
+sys.path.insert(0, project_root)
+
+import src.Conversacion.analyzer
 import unittest
 
 class Test(unittest.TestCase):
