@@ -5,8 +5,7 @@ class Analyzer:
         
 
 	def __init__(self,grupos1=[]):
-
-		self.grupos = grupos1
+	        self.grupos = grupos1
 
 
 	def setGrupos(self,grupos1):

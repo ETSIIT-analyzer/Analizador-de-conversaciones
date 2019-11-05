@@ -1,5 +1,5 @@
 {
-	"lenguaje" : "python" ,
+	"lenguaje" : "python-2.7.15" ,
 	"build" : "Makefile"
 
 }
