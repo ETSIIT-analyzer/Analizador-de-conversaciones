@@ -5,7 +5,7 @@ se encargará de analizar conversaciones en un grupo de telegram con el fin de
  contabilizar la participación a fin de analizar y procesar la información 
 recogida en el microservicio.
 
-El lenguaje que vamos a ultilizar para la realización del microservicio será Python.
+El lenguaje que vamos a ultilizar para la realización del microservicio será Python en un principio.
 
 
 Autores:
