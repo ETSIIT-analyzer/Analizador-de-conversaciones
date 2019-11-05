@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 from Conversacion import Analyzer
+from grupo import Grupo
 
 class Test(unittest.TestCase):
 
@@ -17,5 +18,25 @@ class Test(unittest.TestCase):
         tam = len(mensajePrueba)
         self.assertEqual(analyzer.mensajeMasLargo(mensajesPrueba),
                                         (mensajePrueba,tam),"Deberia ser " + mensajePrueba + " " + str(tam))
+
+    def test_integracion(self):
+        analyzer = Analyzer()
+        mensajes = ['hola','que tal?','bine', 'y tu?']
+        grupo1=Grupo(1,mensajes)
+        mensajes = ['mañana','es la excursion','vienes?']
+        grupo2=Grupo(2,mensajes)
+
+        grupos=[]
+        grupos.append(grupo1)
+        grupos.append(grupo2)
+
+        analyzer.setGrupos(grupos)
+
+        self.assertEqual(analyzer.grupoMasActivo(), grupo1, "el grupo mas activo es el 1")
+
+
+
+
+
 if __name__ == '__main__':
     unittest.main()
