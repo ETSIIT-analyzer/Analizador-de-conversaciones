@@ -10,7 +10,7 @@ class Test(unittest.TestCase):
         mensajesPrueba=['Prueba contador','lksadhflkdsaf','kjsagfhjadsgfkdsjhbczxvds']
         self.assertEqual(analyzer.cuentaMensaje(mensajesPrueba),3,"Deberían ser 3 mensajes")
 
-    
+
     def test_longitud(self):
         analyzer = Analyzer()
         mensajesPrueba=['Prueba contador','lksadhflkdsaf','kjsagfhjadsgfkdsjhbczxvds']
@@ -34,7 +34,10 @@ class Test(unittest.TestCase):
 
         self.assertEqual(analyzer.grupoMasActivo(), grupo1, "el grupo mas activo es el 1")
 
-
+    def test_palabraMasRepetida(self):
+        analyzer = Analyzer()
+        mensajes = ['hola','adios','hola', 'hola','si']
+        self.assertEqual(analyzer.palabraMasRepetida([mensajes]), "hola", "La palabra más repetida es hola")
 
 
 
