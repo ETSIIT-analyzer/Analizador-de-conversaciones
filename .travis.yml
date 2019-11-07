@@ -12,7 +12,10 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install codecov
+  - pip install coverage
 # command to run tests
 script:
-  - pytest analyzer/test.py
+#  - pytest analyzer/test.py
+  - coverage run analyzer/test.py
+ after_success:
   - codecov
