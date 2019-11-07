@@ -1,6 +1,6 @@
 PY=python
-PYT=pytest
-PIP= pip
+PYT=pytest-3
+PIP= pip3
 test: analyzer/test.py
 	$(PYT) analyzer/test.py
 install: requirements.txt
