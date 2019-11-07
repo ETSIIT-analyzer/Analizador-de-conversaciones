@@ -37,7 +37,7 @@ class Test(unittest.TestCase):
     def test_palabraMasRepetida(self):
         analyzer = Analyzer()
         mensajes = ['hola','adios','hola', 'hola','si']
-        self.assertEqual(analyzer.palabraMasRepetida([mensajes]), "hola", "La palabra más repetida es hola")
+        self.assertEqual(analyzer.palabraMasRepetida(mensajes), 'hola', "La palabra más repetida es hola")
 
 
 
