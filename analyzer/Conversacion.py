@@ -1,5 +1,5 @@
 from grupo import Grupo
-
+import statistics
 
 class Analyzer:
     def __init__(self,grupos1=[]):
@@ -17,7 +17,8 @@ class Analyzer:
                 m = mensaje
         return m, len(m)
     def palabraMasRepetida(self,mensajes):
-        mode(mensajes)
+        palabra = statistics.mode(mensajes)
+        return palabra
     def grupoMasActivo(self):
         longitud=0
         for grupo in self.grupos:
