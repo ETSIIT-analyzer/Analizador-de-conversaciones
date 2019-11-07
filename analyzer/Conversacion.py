@@ -1,5 +1,5 @@
 from grupo import Grupo
-
+from statistics import mode
 
 class Analyzer:
 
@@ -32,3 +32,5 @@ class Analyzer:
     	        longitud=n
     	        grupoDef = grupo
         return grupoDef
+    def palabraMasRepetida(self,mensajes):
+        mode(mensajes)
