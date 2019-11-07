@@ -6,7 +6,12 @@ se encargará de analizar conversaciones en un grupo de telegram con el fin de
  contabilizar la participación a fin de analizar y procesar la información
 recogida en el microservicio.
 
-El lenguaje que vamos a ultilizar para la realización del microservicio será Python en un principio.
+El lenguaje que vamos a utilizar para la realización del microservicio será Python.
+
+Incluye:
+    -Test Unitarios.
+    -Test de test_integración. Se integra el módulo statistics de python y se realiza el test por si en algún momento cambia.
+    -Test de cobertura. Con codecov comprobación el tanto por ciento de código que tenemos cubierto en nuestro microservicio.
 
 
 Autores:
